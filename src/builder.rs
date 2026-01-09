@@ -1,5 +1,5 @@
 #![allow(dead_code)]
-use super::{collector, Error};
+use super::{Error, collector};
 use metrics::SharedString;
 
 /// Builder for the Embedded Cloudwatch Metrics Collector

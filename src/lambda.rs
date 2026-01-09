@@ -211,7 +211,7 @@ pub mod service {
     use core::fmt::Debug;
 
     use futures::Stream;
-    use lambda_runtime::{layers::TracingLayer, Diagnostic, IntoFunctionResponse};
+    use lambda_runtime::{Diagnostic, IntoFunctionResponse, layers::TracingLayer};
     use serde::{Deserialize, Serialize};
     use tower::Service;
 

@@ -39,7 +39,7 @@ It also provides optional helpers for:
 In your Cargo.toml add:
 ```toml
 metrics = "0.24"
-metrics_cloudwatch_embedded = {  version = "0.8.0", features = ["lambda"] }
+metrics_cloudwatch_embedded = {  version = "1.0", features = ["lambda"] }
 tracing-subscriber = { version = "0.3", default-features = false, features = ["fmt", "env-filter", "json"] }
 ```
 
@@ -121,7 +121,7 @@ more than 30 dimensions/labels will fail with an error via the `tracing` crate
 Supported Rust Versions (MSRV)
 ------------------------------
 
-This crate requires a minimum of Rust 1.82, and is not guaranteed to build on compiler versions earlier than that.
+This crate requires a minimum of Rust 1.85, and is not guaranteed to build on compiler versions earlier than that.
 
 License
 -------
